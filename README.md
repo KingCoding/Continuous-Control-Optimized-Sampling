@@ -58,7 +58,7 @@ env = UnityEnvironment(file_name="YOUR_SYSTEM_UNITY_ENVIRONMENT_FILE_NAME")
 ```
 
 ## EXECUTION
-Run all the intructions in the Continuous_Control_Optimized_Sampling.ipynb file to train the Tennis agents.
+Run all the intructions in the Continuous_Control_Optimized_Sampling.ipynb file to train the agent.
 
 ## TRAINING RESULT GRAPH
 ![Training result graph](https://github.com/KingCoding/Continuous-Control-Optimized-Sampling/blob/main/pictures/Continuous%20Control%20Chart.png)
