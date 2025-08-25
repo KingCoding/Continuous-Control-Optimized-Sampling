@@ -51,7 +51,7 @@ The max average score achieved during training was 39.36 at episode 51, and the 
 
 ## IDEAS FOR FUTURE WORK
 - Implement a weighted experiences approach that saves experiences while tracking the number of times (counts) they were used for training while in the buffer and that tracks the percentage of zero counts experiences in such a way that we don't have to provide static hyperparameters like number of iterations and number of training, but the algorithm will figure a way to perform the training by itself based on the counts of each training of experiences.
-One way could be to select training batch until zero count percentage reaches a certain minimum.
+One way could be to select training batch until zero count percentage reaches a certain minimum.\
 Alternatively, instead of focusing only on the zero counts, try to see the max count or average for a successful training and use it to make this approach work by making every experience be used exactly for that average count or a factor of that max coutn numbe of time.
 
 - Make research to find the ideal combination with the optimized sampling method either theoritically with a general concept or dynamically at runtime.
